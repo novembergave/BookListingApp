@@ -43,33 +43,4 @@ public class BookData {
         return bookPreviewUrl;
     }
 
-    public void setTitle(String title) {
-        bookTitle = title;
-    }
-
-    public void setAuthor(String author) {
-        bookAuthors = author;
-    }
-
-    public void setAuthor(ArrayList author) {
-        String authorName = "";
-        for (int i = 0; author.size() > 0; i++) {
-            authorName += ", " + author.get(i).toString();
-        }
-        bookAuthors = authorName;
-    }
-
-    public void setDescription(String description) {
-        bookDescription = description;
-    }
-
-    public void setPublishedDate(String publishedDate) {
-        bookPublishedDate = publishedDate;
-    }
-
-    public void setPreviewUrl(String previewUrl) {
-        bookPreviewUrl = previewUrl;
-    }
-
-
 }
